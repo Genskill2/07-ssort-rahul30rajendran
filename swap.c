@@ -13,7 +13,7 @@ void swap_max(int arr[100],int n,int a)
   arr[i]=temp;
   }
   }
-  void sort(int arr[100],int n)
+  void ssort(int arr[100],int n)
 {for(int i=0;i<n-1;i++)
 swap_max(arr,n,i);
 }
